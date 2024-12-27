@@ -1,7 +1,7 @@
 ﻿using FinSystem.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace FinSystem.Application.Interfaces.Data
+namespace FinSystem.Infrastructure.Data
 {
     public class AppDbContext : DbContext
     {
@@ -9,14 +9,12 @@ namespace FinSystem.Application.Interfaces.Data
         {
         }
 
-
         public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Add additional configurations here if needed
             modelBuilder.Entity<User>(entity =>
             {
                 entity.Property(e => e.Email).IsRequired().HasMaxLength(255);

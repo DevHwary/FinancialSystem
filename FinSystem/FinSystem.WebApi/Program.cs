@@ -1,6 +1,6 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using FinSystem.Application.Interfaces.Data;
+using FinSystem.Infrastructure.Data;
 using FinSystem.Infrastructure.Runtime.DependencyResolution;
 using Microsoft.EntityFrameworkCore;
 

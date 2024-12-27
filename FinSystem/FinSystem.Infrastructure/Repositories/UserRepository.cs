@@ -1,6 +1,6 @@
-﻿using FinSystem.Application.Interfaces.Data;
-using FinSystem.Domain.Entities;
+﻿using FinSystem.Domain.Entities;
 using FinSystem.Domain.Interfaces;
+using FinSystem.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinSystem.Infrastructure.Repositories
