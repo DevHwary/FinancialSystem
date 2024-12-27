@@ -21,6 +21,8 @@ namespace FinSystem.Application.Services
 
         public async Task<bool> RegisterUserAsync(UserRegistrationDto userDto)
         {
+            // TODO: to handle other cases such as "User already exists" 
+
             var user = new User
             {
                 FirstName = userDto.FirstName,

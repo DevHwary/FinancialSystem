@@ -21,8 +21,8 @@ namespace FinSystem.WebApi.Controllers
         {
             var result = await _userService.RegisterUserAsync(registrationDto);
             if (result)
-                return Ok("User registered successfully");
-            return BadRequest("Failed to register user");
+                return StatusCode(201, new { Message = "User registered successfully" } );
+            return BadRequest(new { Message = "Failed to register user"});
         }
 
 
@@ -32,7 +32,7 @@ namespace FinSystem.WebApi.Controllers
             var token = await _userService.AuthenticateUserAsync(loginDto);
             if (!string.IsNullOrEmpty(token))
                 return Ok(new { Token = token });
-            return Unauthorized("Invalid credentials");
+            return Unauthorized(new { Message = "Invalid credentials" });
         }
     }
 }

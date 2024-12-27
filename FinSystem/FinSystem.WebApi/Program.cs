@@ -2,6 +2,7 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using FinSystem.Infrastructure.Data;
 using FinSystem.Infrastructure.Runtime.DependencyResolution;
+using FinSystem.WebApi.Middleware;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -30,12 +31,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ErrorHandlingMiddleware>();
+app.UseMiddleware<ResponseTemplateMiddleware>();
+
+
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => new  {Message = "Hello World!" });
 
 app.Run();

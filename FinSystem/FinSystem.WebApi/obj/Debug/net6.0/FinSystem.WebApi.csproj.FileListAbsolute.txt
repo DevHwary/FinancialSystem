@@ -58,3 +58,4 @@ D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\obj\Debug\net6.0\refint\FinSyst
 D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\obj\Debug\net6.0\FinSystem.WebApi.pdb
 D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\obj\Debug\net6.0\FinSystem.WebApi.genruntimeconfig.cache
 D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\obj\Debug\net6.0\ref\FinSystem.WebApi.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\obj\Debug\net6.0\FinSystem.WebApi.MvcApplicationPartsAssemblyInfo.cs
