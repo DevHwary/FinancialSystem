@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace FinSystem.Domain.Entities
 {
-    internal class User
+    public class User
     {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
+        public string ProfilePicture { get; set; }
+        public string Role { get; set; }
     }
 }

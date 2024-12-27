@@ -37,3 +37,15 @@ D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Swashbuckle.As
 D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\obj\Debug\net6.0\FinSystem.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Autofac.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.WebApi\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
