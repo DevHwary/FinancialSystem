@@ -14,7 +14,6 @@ namespace FinSystem.Infrastructure.Runtime.DependencyResolution.Modules
         public static void Initialize(ContainerBuilder builder)
         {
             builder.RegisterType<UserService>().As<IUserService>().InstancePerLifetimeScope();
-            builder.RegisterType<UserRepository>().As<IUserRepository>().InstancePerLifetimeScope();
             builder.RegisterType<PasswordHasher<User>>().As<IPasswordHasher<User>>().InstancePerLifetimeScope();
             builder.Register(context =>
             {

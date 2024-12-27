@@ -8,13 +8,13 @@ namespace FinSystem.Application.Services
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IPasswordHasher<User> _passwordHasher;
         private readonly IJwtHandler _jwtHandler;
 
-        public UserService(IUserRepository userRepository, IPasswordHasher<User> passwordHasher, IJwtHandler jwtHandler)
+        public UserService(IUnitOfWork unitOfWork, IPasswordHasher<User> passwordHasher, IJwtHandler jwtHandler)
         {
-            _userRepository = userRepository;
+            _unitOfWork = unitOfWork;
             _passwordHasher = passwordHasher;
             _jwtHandler = jwtHandler;
         }
@@ -30,17 +30,21 @@ namespace FinSystem.Application.Services
                 Role = "Admin" // Default role or use logic to assign roles
             };
 
-            await _userRepository.AddAsync(user);
+            await _unitOfWork.Users.AddAsync(user);
+            await _unitOfWork.CommitAsync();
             return true;
         }
 
         public async Task<string> AuthenticateUserAsync(LoginDto loginDto)
         {
-            var user = await _userRepository.FindByEmailAsync(loginDto.Email);
-            if (user != null && _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, loginDto.Password) == PasswordVerificationResult.Success)
+            var user = await _unitOfWork.Users.FindByEmailAsync(loginDto.Email);
+
+            if (user != null &&
+                _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, loginDto.Password) == PasswordVerificationResult.Success)
             {
                 return _jwtHandler.CreateToken(user);
             }
+
             return null;
         }
     }

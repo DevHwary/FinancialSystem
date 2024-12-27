@@ -1,9 +1,7 @@
 ﻿using Autofac;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using FinSystem.Domain.Interfaces;
+using FinSystem.Infrastructure.Data;
+using FinSystem.Infrastructure.Repositories;
 
 namespace FinSystem.Infrastructure.Runtime.DependencyResolution.Modules
 {
@@ -11,6 +9,8 @@ namespace FinSystem.Infrastructure.Runtime.DependencyResolution.Modules
     {
         public static void Initialize(ContainerBuilder builder)
         {
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
+            builder.RegisterType<UserRepository>().As<IUserRepository>().InstancePerLifetimeScope();
         }
     }
 }
