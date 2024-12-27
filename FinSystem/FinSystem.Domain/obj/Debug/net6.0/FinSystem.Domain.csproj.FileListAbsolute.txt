@@ -1,0 +1,12 @@
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\bin\Debug\net6.0\FinSystem.Domain.deps.json
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\bin\Debug\net6.0\FinSystem.Domain.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\bin\Debug\net6.0\FinSystem.Domain.pdb
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\FinSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\FinSystem.Domain.AssemblyInfoInputs.cache
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\FinSystem.Domain.AssemblyInfo.cs
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\FinSystem.Domain.csproj.CoreCompileInputs.cache
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\FinSystem.Domain.sourcelink.json
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\FinSystem.Domain.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\refint\FinSystem.Domain.dll
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\FinSystem.Domain.pdb
+D:\42\FinancialSystem\FinSystem\FinSystem.Domain\obj\Debug\net6.0\ref\FinSystem.Domain.dll

@@ -22,6 +22,9 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+# Ignore Visual Studio .vs folder
+**/.vs/
+
 # Ignore specific generated files from obj/Debug/net6.0
 
 # Ignore static web assets
