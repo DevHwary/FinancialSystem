@@ -54,8 +54,7 @@
               "RelativeToolTip": "FinSystem.WebApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-27T15:59:45.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T15:59:45.369Z"
             },
             {
               "$type": "Document",
@@ -80,21 +79,19 @@
               "RelativeToolTip": "FinSystem.Infrastructure\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T15:58:47.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T15:58:47.044Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FinSystem.Application",
+              "Title": "FinSystem.Application.csproj",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Application\\FinSystem.Application.csproj",
               "RelativeDocumentMoniker": "FinSystem.Application\\FinSystem.Application.csproj",
               "ToolTip": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Application\\FinSystem.Application.csproj",
               "RelativeToolTip": "FinSystem.Application\\FinSystem.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-27T15:57:41.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T15:57:41.107Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "FinSystem.Domain\\Entities\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T15:56:59.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T15:56:59.703Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "FinSystem.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T15:56:47.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T15:56:47.724Z"
             }
           ]
         }

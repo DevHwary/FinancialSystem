@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinSystem.WebApi", "FinSystem.WebApi\FinSystem.WebApi.csproj", "{FED0B7B2-AB64-40D1-AB2A-29D2C081A10B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinSystem.Domain", "FinSystem.Domain\FinSystem.Domain.csproj", "{6E86E3A7-F47E-4AA4-81DA-87B550B99246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinSystem.Domain", "FinSystem.Domain\FinSystem.Domain.csproj", "{6E86E3A7-F47E-4AA4-81DA-87B550B99246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinSystem.Application", "FinSystem.Application\FinSystem.Application.csproj", "{E58EB7EB-2BF7-464D-A1C7-E449CB9B3974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinSystem.Application", "FinSystem.Application\FinSystem.Application.csproj", "{E58EB7EB-2BF7-464D-A1C7-E449CB9B3974}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinSystem.Infrastructure", "FinSystem.Infrastructure\FinSystem.Infrastructure.csproj", "{105B6C47-5934-431F-B71D-7940820BB933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinSystem.Infrastructure", "FinSystem.Infrastructure\FinSystem.Infrastructure.csproj", "{105B6C47-5934-431F-B71D-7940820BB933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
