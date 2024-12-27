@@ -16,10 +16,7 @@ namespace FinSystem.Infrastructure.Repositories
 
         public async Task<User> FindByEmailAsync(string email)  
         {
-            List<User> users = _context.Users.ToList();
-            var test = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-            //var test = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-            return test;
+            return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
 
         public async Task AddAsync(User user)
