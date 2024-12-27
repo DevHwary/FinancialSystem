@@ -23,7 +23,7 @@ namespace FinSystem.WebApi.Middleware
                 // Continue through the pipeline
                 await _next(context);
 
-                if (context.Response.StatusCode < 400)
+                if (context.Response.StatusCode < 500)
                 {
                     memoryStream.Seek(0, SeekOrigin.Begin);
                     var originalResponse = await new StreamReader(memoryStream).ReadToEndAsync();
