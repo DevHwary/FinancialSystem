@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "FinSystem.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FinSystem.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinSystem.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinSystem.Application.dll": {}
+        }
+      },
+      "FinSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FinSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinSystem.Application/1.0.0": {
+      "type": "project",
+      "path": "../FinSystem.Application/FinSystem.Application.csproj",
+      "msbuildProject": "../FinSystem.Application/FinSystem.Application.csproj"
+    },
+    "FinSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FinSystem.Domain/FinSystem.Domain.csproj",
+      "msbuildProject": "../FinSystem.Domain/FinSystem.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FinSystem.Application >= 1.0.0",
+      "FinSystem.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\JRM\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Infrastructure\\FinSystem.Infrastructure.csproj",
+      "projectName": "FinSystem.Infrastructure",
+      "projectPath": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Infrastructure\\FinSystem.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\JRM\\.nuget\\packages\\",
+      "outputPath": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\JRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Application\\FinSystem.Application.csproj": {
+              "projectPath": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Application\\FinSystem.Application.csproj"
+            },
+            "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Domain\\FinSystem.Domain.csproj": {
+              "projectPath": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Domain\\FinSystem.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

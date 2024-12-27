@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FinSystem.Infrastructure/1.0.0": {
+        "dependencies": {
+          "FinSystem.Application": "1.0.0",
+          "FinSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FinSystem.Infrastructure.dll": {}
+        }
+      },
+      "FinSystem.Application/1.0.0": {
+        "dependencies": {
+          "FinSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FinSystem.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FinSystem.Domain/1.0.0": {
+        "runtime": {
+          "FinSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinSystem.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

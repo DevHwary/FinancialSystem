@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Hr7pO/M+7WlBBnxKhQfxiWQ7zbEMW7ovc7E6rau1yMk=",
+  "Source": "FinSystem.WebApi",
+  "BasePath": "_content/FinSystem.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
