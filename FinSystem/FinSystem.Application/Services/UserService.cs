@@ -27,7 +27,7 @@ namespace FinSystem.Application.Services
                 LastName = userDto.LastName,
                 Email = userDto.Email,
                 PasswordHash = _passwordHasher.HashPassword(null, userDto.Password),
-                Role = "Standard" // Default role or use logic to assign roles
+                Role = "Admin" // Default role or use logic to assign roles
             };
 
             await _userRepository.AddAsync(user);
