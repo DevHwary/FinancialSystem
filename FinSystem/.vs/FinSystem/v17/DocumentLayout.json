@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\42\\FinancialSystem\\FinSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{105B6C47-5934-431F-B71D-7940820BB933}|FinSystem.Infrastructure\\FinSystem.Infrastructure.csproj|d:\\42\\financialsystem\\finsystem\\finsystem.infrastructure\\runtime\\dependencyresolution\\modules\\datamodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105B6C47-5934-431F-B71D-7940820BB933}|FinSystem.Infrastructure\\FinSystem.Infrastructure.csproj|solutionrelative:finsystem.infrastructure\\runtime\\dependencyresolution\\modules\\datamodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FED0B7B2-AB64-40D1-AB2A-29D2C081A10B}|FinSystem.WebApi\\FinSystem.WebApi.csproj|d:\\42\\financialsystem\\finsystem\\finsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED0B7B2-AB64-40D1-AB2A-29D2C081A10B}|FinSystem.WebApi\\FinSystem.WebApi.csproj|solutionrelative:finsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{E58EB7EB-2BF7-464D-A1C7-E449CB9B3974}|FinSystem.Application\\FinSystem.Application.csproj|solutionrelative:finsystem.application\\interfaces\\ijwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105B6C47-5934-431F-B71D-7940820BB933}|FinSystem.Infrastructure\\FinSystem.Infrastructure.csproj|d:\\42\\financialsystem\\finsystem\\finsystem.infrastructure\\runtime\\dependencyresolution\\modules\\datamodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105B6C47-5934-431F-B71D-7940820BB933}|FinSystem.Infrastructure\\FinSystem.Infrastructure.csproj|solutionrelative:finsystem.infrastructure\\runtime\\dependencyresolution\\modules\\datamodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E58EB7EB-2BF7-464D-A1C7-E449CB9B3974}|FinSystem.Application\\FinSystem.Application.csproj|d:\\42\\financialsystem\\finsystem\\finsystem.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E58EB7EB-2BF7-464D-A1C7-E449CB9B3974}|FinSystem.Application\\FinSystem.Application.csproj|solutionrelative:finsystem.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Application\\Interfaces\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "FinSystem.Application\\Interfaces\\Data\\AppDbContext.cs",
@@ -87,12 +87,11 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAEwAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T16:20:19.673Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ServiceModule.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Infrastructure\\Runtime\\DependencyResolution\\Modules\\ServiceModule.cs",
               "RelativeDocumentMoniker": "FinSystem.Infrastructure\\Runtime\\DependencyResolution\\Modules\\ServiceModule.cs",
@@ -101,8 +100,7 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAgwBEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T16:37:12.369Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -114,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.WebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "FinSystem.WebApi\\appsettings.Development.json",
@@ -122,12 +120,11 @@
               "RelativeToolTip": "FinSystem.WebApi\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-27T18:37:59.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T18:37:59.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "FinSystem.WebApi\\appsettings.json",
@@ -135,12 +132,11 @@
               "RelativeToolTip": "FinSystem.WebApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-27T18:36:15.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T18:36:15.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "JwtHandler.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Application\\Services\\JwtHandler.cs",
               "RelativeDocumentMoniker": "FinSystem.Application\\Services\\JwtHandler.cs",
@@ -148,12 +144,11 @@
               "RelativeToolTip": "FinSystem.Application\\Services\\JwtHandler.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T18:36:00.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T18:36:00.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "FinSystem.Domain\\Entities\\User.cs",
@@ -161,12 +156,11 @@
               "RelativeToolTip": "FinSystem.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T18:31:06.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T18:31:06.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IJwtHandler.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Application\\Interfaces\\IJwtHandler.cs",
               "RelativeDocumentMoniker": "FinSystem.Application\\Interfaces\\IJwtHandler.cs",
@@ -174,12 +168,11 @@
               "RelativeToolTip": "FinSystem.Application\\Interfaces\\IJwtHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T17:44:40.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T17:44:40.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "FinSystem.Domain\\Interfaces\\IUserRepository.cs",
@@ -187,8 +180,7 @@
               "RelativeToolTip": "FinSystem.Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAASwAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T17:25:15.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T17:25:15.16Z"
             },
             {
               "$type": "Document",
@@ -200,12 +192,11 @@
               "RelativeToolTip": "FinSystem.Domain\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T17:22:24.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T17:22:24.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "FinSystem.Infrastructure\\Repositories\\UserRepository.cs",
@@ -213,12 +204,11 @@
               "RelativeToolTip": "FinSystem.Infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAIAzwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T17:08:09.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T17:08:09.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "FinSystem.Application\\Services\\UserService.cs",
@@ -226,8 +216,7 @@
               "RelativeToolTip": "FinSystem.Application\\Services\\UserService.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAawCwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T17:06:51.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T17:06:51.187Z"
             },
             {
               "$type": "Document",
@@ -239,12 +228,11 @@
               "RelativeToolTip": "FinSystem.Application\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:56:13.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T16:56:13.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.WebApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "FinSystem.WebApi\\Controllers\\AuthController.cs",
@@ -252,18 +240,17 @@
               "RelativeToolTip": "FinSystem.WebApi\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:54:20.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T16:54:20.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "DataModule.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Infrastructure\\Runtime\\DependencyResolution\\Modules\\DataModule.cs",
               "RelativeDocumentMoniker": "FinSystem.Infrastructure\\Runtime\\DependencyResolution\\Modules\\DataModule.cs",
               "ToolTip": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.Infrastructure\\Runtime\\DependencyResolution\\Modules\\DataModule.cs",
               "RelativeToolTip": "FinSystem.Infrastructure\\Runtime\\DependencyResolution\\Modules\\DataModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T16:33:38.514Z",
               "EditorCaption": ""
@@ -278,12 +265,11 @@
               "RelativeToolTip": "FinSystem.Application\\DTOs\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:18:41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T16:18:41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\42\\FinancialSystem\\FinSystem\\FinSystem.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "FinSystem.WebApi\\Program.cs",
@@ -291,8 +277,7 @@
               "RelativeToolTip": "FinSystem.WebApi\\Program.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T15:59:30.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T15:59:30.791Z"
             }
           ]
         }
