@@ -1,0 +1,339 @@
+{
+	"info": {
+		"_postman_id": "72922886-4c6f-40bf-bbc0-3cd1a5261e71",
+		"name": "42 - Task FinSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21207532",
+		"_collection_link": "https://speeding-meteor-459956.postman.co/workspace/JRM-workspace~9cc34c7e-9114-4503-8dd3-264447ad21ce/collection/21207532-72922886-4c6f-40bf-bbc0-3cd1a5261e71?action=share&source=collection_link&creator=21207532"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"FirstName\" : \"admin\",\r\n    \"LastName\" : \"admin\",\r\n    \"Email\" : \"admin@hwary.comm\",\r\n    \"Password\" : \"Password\"\r\n}   ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7040/api/v1/auth/register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7040",
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Admin Register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"FirstName\" : \"admin\",\r\n    \"LastName\" : \"admin\",\r\n    \"Email\" : \"admin@hwary.comm\",\r\n    \"Password\" : \"Password\"\r\n}   ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7040/api/v1/auth/register",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7040",
+									"path": [
+										"api",
+										"v1",
+										"auth",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 Dec 2024 11:52:52 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"Success\": true,\n    \"StatusCode\": 201,\n    \"Data\": {\n        \"message\": \"User registered successfully\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Email\" : \"admin@hwary.comm\",\r\n    \"Password\" : \"Password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7040/api/v1/auth/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7040",
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Email\" : \"admin@hwary.comm\",\r\n    \"Password\" : \"Password\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7040/api/v1/auth/login",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7040",
+									"path": [
+										"api",
+										"v1",
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 Dec 2024 11:53:05 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"Success\": true,\n    \"StatusCode\": 200,\n    \"Data\": {\n        \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AaHdhcnkuY29tbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzM1NjQ1OTg1LCJpc3MiOiJGaW5TeXN0ZW0iLCJhdWQiOiJGaW5TeXN0ZW1Vc2VycyJ9.2-ihQpS3ns7Ogoe4N2fZ-Oyut2g7yy7j8xmMkJmPgxE\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Admin Dashboard",
+			"item": [
+				{
+					"name": "Dashboard",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AaHdhcnkuY29tbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzM1NjQ1OTg1LCJpc3MiOiJGaW5TeXN0ZW0iLCJhdWQiOiJGaW5TeXN0ZW1Vc2VycyJ9.2-ihQpS3ns7Ogoe4N2fZ-Oyut2g7yy7j8xmMkJmPgxE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    // \"RequestNumber\": 10,\r\n    // \"RequestStatus\": true,\r\n    \"PageNumber\": 1,\r\n    \"PageSize\": 6\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7040/api/v1/Finance/filter",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7040",
+							"path": [
+								"api",
+								"v1",
+								"Finance",
+								"filter"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Default Filter",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7040/api/v1/Finance/filter",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7040",
+									"path": [
+										"api",
+										"v1",
+										"Finance",
+										"filter"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 Dec 2024 12:24:09 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"Success\": true,\n    \"StatusCode\": 200,\n    \"Data\": {\n        \"currentPage\": 1,\n        \"totalPages\": 1,\n        \"totalRows\": 20,\n        \"data\": [\n            {\n                \"requestNumber\": 1,\n                \"paymentAmount\": 1000,\n                \"paymentPeriod\": 6,\n                \"totalProfit\": 200,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 2,\n                \"paymentAmount\": 2000,\n                \"paymentPeriod\": 12,\n                \"totalProfit\": 401,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 3,\n                \"paymentAmount\": 1501,\n                \"paymentPeriod\": 9,\n                \"totalProfit\": 300,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 4,\n                \"paymentAmount\": 1201,\n                \"paymentPeriod\": 3,\n                \"totalProfit\": 150,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 5,\n                \"paymentAmount\": 1801,\n                \"paymentPeriod\": 6,\n                \"totalProfit\": 270,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 6,\n                \"paymentAmount\": 2501,\n                \"paymentPeriod\": 12,\n                \"totalProfit\": 501,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 7,\n                \"paymentAmount\": 1300,\n                \"paymentPeriod\": 9,\n                \"totalProfit\": 221,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 8,\n                \"paymentAmount\": 900,\n                \"paymentPeriod\": 3,\n                \"totalProfit\": 101,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 9,\n                \"paymentAmount\": 1101,\n                \"paymentPeriod\": 6,\n                \"totalProfit\": 180,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 10,\n                \"paymentAmount\": 1701,\n                \"paymentPeriod\": 12,\n                \"totalProfit\": 380,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 11,\n                \"paymentAmount\": 1026,\n                \"paymentPeriod\": 11,\n                \"totalProfit\": 120,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 12,\n                \"paymentAmount\": 1493,\n                \"paymentPeriod\": 7,\n                \"totalProfit\": 146,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 13,\n                \"paymentAmount\": 158,\n                \"paymentPeriod\": 11,\n                \"totalProfit\": 191,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 14,\n                \"paymentAmount\": 2364,\n                \"paymentPeriod\": 5,\n                \"totalProfit\": 264,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 15,\n                \"paymentAmount\": 2858,\n                \"paymentPeriod\": 3,\n                \"totalProfit\": 172,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 16,\n                \"paymentAmount\": 2924,\n                \"paymentPeriod\": 11,\n                \"totalProfit\": 208,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 17,\n                \"paymentAmount\": 374,\n                \"paymentPeriod\": 3,\n                \"totalProfit\": 314,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 18,\n                \"paymentAmount\": 2405,\n                \"paymentPeriod\": 5,\n                \"totalProfit\": 291,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 19,\n                \"paymentAmount\": 2538,\n                \"paymentPeriod\": 1,\n                \"totalProfit\": 417,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 20,\n                \"paymentAmount\": 722,\n                \"paymentPeriod\": 5,\n                \"totalProfit\": 32,\n                \"requestStatus\": false\n            }\n        ]\n    }\n}"
+						},
+						{
+							"name": "Dashboard",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    // \"RequestNumber\": 10,\r\n    // \"RequestStatus\": true,\r\n    \"PageNumber\": 1,\r\n    \"PageSize\": 6\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7040/api/v1/Finance/filter",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7040",
+									"path": [
+										"api",
+										"v1",
+										"Finance",
+										"filter"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 Dec 2024 12:34:20 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"Success\": true,\n    \"StatusCode\": 200,\n    \"Data\": {\n        \"currentPage\": 1,\n        \"totalPages\": 4,\n        \"totalRows\": 20,\n        \"data\": [\n            {\n                \"requestNumber\": 1,\n                \"paymentAmount\": 1000.23,\n                \"paymentPeriod\": 6,\n                \"totalProfit\": 201.33,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 2,\n                \"paymentAmount\": 2001.12,\n                \"paymentPeriod\": 12,\n                \"totalProfit\": 401.967,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 3,\n                \"paymentAmount\": 1501.74,\n                \"paymentPeriod\": 9,\n                \"totalProfit\": 300,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 4,\n                \"paymentAmount\": 1202,\n                \"paymentPeriod\": 3,\n                \"totalProfit\": 150.74,\n                \"requestStatus\": true\n            },\n            {\n                \"requestNumber\": 5,\n                \"paymentAmount\": 1802,\n                \"paymentPeriod\": 6,\n                \"totalProfit\": 270.12,\n                \"requestStatus\": false\n            },\n            {\n                \"requestNumber\": 6,\n                \"paymentAmount\": 2501,\n                \"paymentPeriod\": 12,\n                \"totalProfit\": 501,\n                \"requestStatus\": true\n            }\n        ]\n    }\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

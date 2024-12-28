@@ -9,6 +9,7 @@ namespace FinSystem.Infrastructure.Runtime.DependencyResolution.Modules
         public static void Initialize(ContainerBuilder builder)
         {
             builder.RegisterType<UserRepository>().As<IUserRepository>().InstancePerLifetimeScope();
+            builder.RegisterType<FinanceRequestRepository>().As<IFinanceRequestRepository>().InstancePerLifetimeScope();
         }
     }
 }

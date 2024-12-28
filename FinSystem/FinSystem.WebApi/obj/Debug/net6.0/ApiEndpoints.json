@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_2",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_4",
     "RelativePath": "",
     "HttpMethod": "GET",
     "IsController": false,
@@ -44,6 +44,22 @@
       {
         "Name": "registrationDto",
         "Type": "FinSystem.Application.DTOs.UserRegistrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinSystem.WebApi.Controllers.FinanceController",
+    "Method": "GetFinanceRequests",
+    "RelativePath": "api/v1/Finance/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filterDto",
+        "Type": "FinSystem.Domain.Filters.FinanceRequestFilterDto",
         "IsRequired": true
       }
     ],
