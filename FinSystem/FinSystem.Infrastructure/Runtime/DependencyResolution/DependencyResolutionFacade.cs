@@ -7,6 +7,7 @@ namespace FinSystem.Infrastructure.Runtime.DependencyResolution
     {
         public static void Initialize(ContainerBuilder container)
         {
+            ApplicationModule.Initialize(container);
             DataModule.Initialize(container);
             RepositoryModule.Initialize(container);
             ServiceModule.Initialize(container);

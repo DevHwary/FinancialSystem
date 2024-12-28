@@ -1,4 +1,5 @@
 ﻿using FinSystem.Application.DTOs;
+using FinSystem.Application.Enums;
 using FinSystem.Application.Interfaces;
 using FinSystem.Domain.Entities;
 using FinSystem.Domain.Interfaces;
@@ -19,9 +20,13 @@ namespace FinSystem.Application.Services
             _jwtHandler = jwtHandler;
         }
 
-        public async Task<bool> RegisterUserAsync(UserRegistrationDto userDto)
+        public async Task<RegistrationResult> RegisterUserAsync(UserRegistrationDto userDto)
         {
-            // TODO: to handle other cases such as "User already exists" 
+            var existingUser = await _unitOfWork.Users.FindByEmailAsync(userDto.Email);
+            if (existingUser != null)
+            {
+                return RegistrationResult.UserAlreadyExists;
+            }
 
             var user = new User
             {
@@ -29,12 +34,19 @@ namespace FinSystem.Application.Services
                 LastName = userDto.LastName,
                 Email = userDto.Email,
                 PasswordHash = _passwordHasher.HashPassword(null, userDto.Password),
-                Role = "Admin" // Default role or use logic to assign roles
+                Role = "Admin"
             };
 
-            await _unitOfWork.Users.AddAsync(user);
-            await _unitOfWork.CommitAsync();
-            return true;
+            try
+            {
+                await _unitOfWork.Users.AddAsync(user);
+                await _unitOfWork.CommitAsync();
+                return RegistrationResult.Created;
+            }
+            catch (Exception)
+            {
+                return RegistrationResult.Failed;
+            }
         }
 
         public async Task<string> AuthenticateUserAsync(LoginDto loginDto)
