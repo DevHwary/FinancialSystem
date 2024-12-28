@@ -9,28 +9,32 @@ ________________________________________________________________________________
 # Features
 # 1- User Registration & Authentication:
 
-Register new users with validation for email, password, and names.
-Login to obtain a JWT token for secure API access.
-Role-based access (e.g., Admin).
+  - Register new users with validation for email, password, and names.
+  - Login to obtain a JWT token for secure API access.
+  - Role-based access (e.g., Admin).
 
 # 2- Finance Requests Management:
 
-Fetch finance requests with filtering, sorting, and pagination.
-Fields:
-Request Number
-Payment Amount
-Payment Period (in months)
-Total Profit
-Request Status (approved/declined)
+  - Fetch finance requests with filtering, sorting, and pagination.
+  - Fields:
+    - Request Number
+    - Payment Amount
+    - Payment Period (in months)
+    - Total Profit
+    - Request Status (approved/declined)
 
 # 3- API Documentation:
 
-Interactive Swagger UI for testing APIs.
-Postman collection for testing endpoints.
-Error Handling:
+  - Interactive Swagger UI for testing APIs.
+  - Postman collection for testing endpoints.
+  - Error Handling:
 
 # 4- Middleware for structured error responses.
-Unified response structure for success and error cases.
+  - Unified response structure for success and error cases.
+
+# 5- Validation:
+  - Input validation is implemented using FluentValidation for consistent and reusable validation logic.
+  - Example: Ensures email format is valid, passwords are at least 8 characters, and more.
 ______________________________________________________________________________________________
 
 # Technologies Used
