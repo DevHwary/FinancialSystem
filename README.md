@@ -55,3 +55,10 @@ ________________________________________________________________________________
 3. Restore the database <fine_system>
 4. Run the Application
   >> dotnet run --project FinSystem.WebApi
+
+## For Docker
+>> git clone {{repository-url}}
+>
+>> cd FinancialSystem/FinSystem
+>
+>> docker-compose up --build
